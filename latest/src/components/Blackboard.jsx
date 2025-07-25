@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import io from 'socket.io-client';
-const socket = io('http://localhost:4000'); // or use your actual IP
+const socket = io('https://blackboard-k29q.onrender.com'); // or use your actual IP
 
 
 const Blackboard = () => {
